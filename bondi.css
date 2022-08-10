@@ -58,6 +58,12 @@ nav {
 
 }
 
+
+
+/*start features*/
+
+
+
 .features .icon-holder{
     height: 200px;
 }
@@ -77,10 +83,16 @@ nav {
     color: var(--yellow-color);
 }
 
+
+
+/*start ourwork */
+
+
+
 .our-work{
     background-color: var(--section-color);
 }
-.list-unstyled {
+.l-unstyled {
     padding-left: 0;
     list-style: none;
 }
@@ -122,4 +134,67 @@ nav {
 }
  .desc{
     width: 500px;
+}
+ 
+.col-lg-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+ 
+
+/*start team */
+
+
+
+.team{
+    background-color: var(--section-color);
+}
+.team h2{
+    color: var(--yellow-color);
+}
+.team .box h4{
+    background-color: var(--green-color);
+}
+.project{
+    background-color: var(--dark-color);
+}
+
+
+/*start subscribe*/
+
+
+.subscribe{
+    background-color: var(--yellow-color);
+}
+.subscribe input[type="text"]{
+    border: none;
+    border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus{
+    outline: none;
+}
+.subscribe ::placeholder{
+    color:white;
+}
+.subscribe input[type="submit"]{
+    background-color:var(--dark-color);
+    color: var(--yellow-color);
+}
+
+/*start footer*/
+
+.footer {
+    background-color: var(--dark-color);
+}
+.main-btn {
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+    padding: 0.5rem 1rem;
+} 
+.footer .copyright >span{
+    color: var(--green-color);
+    font-weight: bold;
+}
+.footer .copyright div span{
+    color: var(--yellow-color);
 }
